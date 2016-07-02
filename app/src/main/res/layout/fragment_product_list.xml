@@ -5,10 +5,11 @@
     android:id="@+id/list"
     android:name="com.sloper.ProductFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     android:orientation="horizontal"
     app:layoutManager="LinearLayoutManager"
     tools:context="com.sloper.ProductFragment"
-    tools:listitem="@layout/fragment_product" />
+    tools:listitem="@layout/fragment_product"
+    tools:showIn="@layout/activity_main" />
