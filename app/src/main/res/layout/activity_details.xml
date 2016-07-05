@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:textStyle="bold"
             android:textSize="35dp"
-            android:style="@style/TextAppearance.AppCompat.Large"
+            style="@style/TextAppearance.AppCompat.Large"
             android:id="@+id/product_name"
             android:text="Name"
             android:layout_margin="7dp"/>
