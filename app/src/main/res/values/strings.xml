@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sloper</string>
+
+    <string name="dummy_content">SLOPER\nLoading Please Wait</string>
+    <string name="loding_msg">Loading...Pleae Wait</string>
+    <string name="featured">Featured</string>
+    <string name="desc_large_img">Product display  Image</string>
+</resources>
