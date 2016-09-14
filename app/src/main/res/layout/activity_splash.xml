@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#978561"
     tools:context="com.sloper.SplashActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -15,7 +15,7 @@
         android:layout_height="311dp"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/about_icon"
         android:layout_gravity="center" />
     <LinearLayout
         android:layout_width="wrap_content"

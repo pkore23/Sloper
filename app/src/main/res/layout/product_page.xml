@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:layout_weight="1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/photo"
+        android:scaleType="fitCenter"
+        android:transitionName="@string/main_img"
+        android:contentDescription="@string/cat4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/black_overlay"
+        android:id="@+id/title"
+        android:textColor="@color/black"
+        android:layout_gravity="start|bottom"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:transitionName="@string/ptitle"
+        android:gravity="start"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/black_overlay"
+        android:id="@+id/prod_price"
+        android:textColor="@color/black"
+        android:layout_gravity="end|bottom"
+        android:textStyle="bold"
+        android:textAlignment="viewEnd"
+        android:gravity="end"
+        android:textSize="25sp"/>
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/all_prods" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="@string/cat">
+            <menu android:checkableBehavior="single">
+                <item android:id="@+id/nav_cat1"
+                    android:title="@string/cat1" />
+                <item android:id="@+id/nav_cat2"
+                    android:title="@string/cat2" />
+                <item android:id="@+id/nav_cat3"
+                    android:title="@string/cat3" />
+                <item android:id="@+id/nav_cat4"
+                    android:title="@string/cat4" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="application">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

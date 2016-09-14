@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products>
+    <product id="p_01"
+        name="Product 1"
+        price="500.00"
+        img="01"
+        type="shirt">
+        <color id="000000"
+            size="S;M;L"/>
+        <color id="ffffff"
+            size="M;L" />
+    </product>
+
+    <product id="p_02"
+        name="Product 2"
+        price="360.00"
+        img="02">
+        <color id="000000"
+            size="S;M;L"/>
+        <color id="ffffff"
+            size="M;L" />
+    </product>
+</Products>

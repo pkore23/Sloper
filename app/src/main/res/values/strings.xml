@@ -2,7 +2,37 @@
     <string name="app_name">Sloper</string>
 
     <string name="dummy_content">SLOPER\nLoading Please Wait</string>
-    <string name="loding_msg">Loading...Pleae Wait</string>
+    <string name="loding_msg">Loading...Please Wait</string>
     <string name="featured">Featured</string>
     <string name="desc_large_img">Product display  Image</string>
+    <string name="title_activity_main">Sloper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="all_prods">All Products</string>
+    <string name="cat">Category</string>
+    <string name="qty">Quantity</string>
+    <string name="descritption"></string>
+    <string name="comp_name">Company Name</string>
+    <string name="Price" />
+    <string name="price">Price INR</string>
+    <string name="main_img">mainImage</string>
+    <string name="ptitle">product_title</string>
+    <string name="pprice">product_price</string>
+    <string name="pnew">New</string>
+    <string name="best_selling">Best Selling</string>
+    <string name="cat1">Cotton Trousers</string>
+    <string name="cat2">Formal\nTrousers</string>
+    <string name="cat3">Corduroys</string>
+    <string name="cat4">Jeans</string>
+    <string name="cat5">Boxers</string>
+    <string name="address">Shop No. 7, Dudhwala Mansion No1,\nK.G. Marg, Opp. Tilak Bhavan,\nDadar (W), Mumbai 400025.</string>
+    <string name="website">www.sloper.in</string>
+    <string name="email">sloperbottoms@yahoo.in</string>
+    <string name="sloper_api">8b1a9953c4611296a827abf8c47804d7</string>
+    <string name="content_authority">com.sloper</string>
+    <string name="account_type">sloper.com</string>
 </resources>
